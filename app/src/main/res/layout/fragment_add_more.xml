@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMoreFragment"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtspeech"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="@string/enter_any_sentence"
+            android:importantForAutofill="no"
+            android:inputType="text">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSpeak"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/say_it"
+            tools:ignore="NestedWeights">
+
+        </Button>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">YourVoice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="languages">languages</string>
+    <string name="give_me">Give me</string>
+    <string name="put_this">Put this</string>
+    <string name="i_want_this">I want this</string>
+    <string name="search_for_something">Search For Something</string>
+    <string name="add_more">Add More</string>
+    <string name="enter_any_sentence">Enter any sentence</string>
+    <string name="say_it">Say it</string>
+    <string name="previous">Previous</string>
+    <string name="add">Add</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="about_us">About us</string>
+    <string name="urdu">urdu</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YourVoice</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="languages">languages</string>
+    <string name="give_me">Dame esto</string>
+    <string name="put_this">Pon esto</string>
+    <string name="i_want_this">quiero esto</string>
+    <string name="search_for_something">buscar algo</string>
+    <string name="add_more">Add More</string>
+    <string name="enter_any_sentence">ingrese cualquier oración</string>
+    <string name="say_it">dilo</string>
+    <string name="previous">Previous</string>
+    <string name="add">Add</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="about_us">About us</string>
+    <string name="urdu">urdu</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+</resources>

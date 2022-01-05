@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/settingsFragment"
+    android:title="@string/settings"
+    android:menuCategory="secondary"
+    app:showAsAction="never"/>
+
+<item
+    android:id="@+id/aboutus"
+    android:title="@string/about_us"
+    android:icon="@drawable/ic_info"
+    app:showAsAction="always"/>
+
+<item
+    android:title="@string/languages">
+    <menu>
+        <item
+            android:title="@string/urdu"
+            android:id="@+id/languagesFragment"/>
+        <item
+            android:title="@string/english"
+            android:id="@+id/englishFragment"/>
+        <item
+            android:title="@string/spanish"
+            android:id="@+id/spanishFragment"/>
+
+
+    </menu>
+</item>
+</menu>

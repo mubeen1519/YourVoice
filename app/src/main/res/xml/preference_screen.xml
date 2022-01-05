@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Adjustment"
+        android:icon="@drawable/ic_settings">
+    <SeekBarPreference
+        android:title="Pitch"
+        android:key="sound_pitch"
+        android:defaultValue="50"
+        android:max="100"
+        android:enabled="true"/>
+    <SeekBarPreference
+        android:title="Speed"
+        android:key="sound_speed"
+        android:defaultValue="50"
+        android:max="100"
+        android:enabled="true"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
