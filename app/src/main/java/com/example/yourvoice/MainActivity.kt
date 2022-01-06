@@ -1,9 +1,7 @@
 package com.example.yourvoice
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.Configuration
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
@@ -11,11 +9,9 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toolbar
-import androidx.annotation.RequiresApi
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.*
-import androidx.preference.PreferenceManager
 import com.zeugmasolutions.localehelper.LocaleHelper
 import com.zeugmasolutions.localehelper.LocaleHelperActivityDelegate
 import com.zeugmasolutions.localehelper.LocaleHelperActivityDelegateImpl
@@ -71,9 +67,14 @@ class MainActivity : AppCompatActivity() {
                 tts.language = Locale.ENGLISH
                 return true
             }
-            R.id.languagesFragment->{
+            R.id.urduFragment->{
                 updateLocale(Locale("ur"))
                 tts.language = Locale("ur")
+                tts.speak(btn1.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+                tts.speak(btn2.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+                tts.speak(btn3.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+                tts.speak(btn4.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+
                 return true
             }
             R.id.spanishFragment ->{

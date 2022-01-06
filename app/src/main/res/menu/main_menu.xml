@@ -18,7 +18,7 @@
     <menu>
         <item
             android:title="@string/urdu"
-            android:id="@+id/languagesFragment"/>
+            android:id="@+id/urduFragment"/>
         <item
             android:title="@string/english"
             android:id="@+id/englishFragment"/>

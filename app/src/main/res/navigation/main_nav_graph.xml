@@ -45,11 +45,11 @@
         app:popEnterAnim="@anim/side_in_left"
         app:popExitAnim="@anim/side_out_right"/>
     <fragment
-        android:id="@+id/languagesFragment"
+        android:id="@+id/urduFragment"
         android:name="com.example.yourvoice.UrduFragment"
         android:label="Languages"
         tools:layout="@layout/urdu_languages" />
-    <action android:id="@+id/action_global_languagesFragment" app:destination="@id/languagesFragment"/>
+    <action android:id="@+id/action_global_urduFragment" app:destination="@id/urduFragment"/>
     <fragment
         android:id="@+id/englishFragment"
         android:name="com.example.yourvoice.EnglishFragment"

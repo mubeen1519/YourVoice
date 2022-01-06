@@ -15,18 +15,5 @@
   </menu>
 
  </item>
- <item
-     android:title="Languages">
-  <menu>
-   <item
-       android:title="@string/urdu"
-       android:id="@+id/languagesFragment"
-       android:icon="@drawable/ic_language"/>
-   <item
-    android:title="@string/english"
-    android:id="@+id/englishFragment"
-    android:icon="@drawable/ic_language"/>
-  </menu>
 
- </item>
 </menu>

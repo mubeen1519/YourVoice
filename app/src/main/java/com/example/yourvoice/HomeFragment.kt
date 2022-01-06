@@ -1,17 +1,15 @@
 package com.example.yourvoice
 
-import android.os.Build
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.MenuItem
 import android.view.View
-import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.onNavDestinationSelected
-import androidx.preference.PreferenceManager
+import kotlinx.android.synthetic.main.fragment_add_more.*
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.*
 
@@ -65,8 +63,12 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                 tts.language = Locale.ENGLISH
                 return true
             }
-            R.id.languagesFragment -> {
+            R.id.urduFragment -> {
                 tts.language = Locale("ur")
+                tts.speak(btn1.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+                tts.speak(btn2.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+                tts.speak(btn3.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
+                tts.speak(btn4.text.toString(),TextToSpeech.QUEUE_FLUSH,null,null)
                 return true
             }
             R.id.spanishFragment -> {
